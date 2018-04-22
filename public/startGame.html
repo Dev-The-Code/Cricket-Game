@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Select The Team</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body background="images/87.jpg">
+
+    <div class="wrapper">
+        <h1 class="teams">Select the Team</h1>
+
+        <form>
+            <label for="teamA">
+                <img src="images/karachi kings.png" alt="karachi" class="images">
+                <input type="radio" name="rbtn" id="teamA" value="Karachi kings" class="team">
+            </label>
+
+            <label for="teamB">
+                <img src="images/Peshawar Zalmi.png" alt="peshawar" class="images">
+                <input type="radio" name="rbtn" id="teamB" value="Peshawar Zalmi" class="team">
+            </label>
+            <input type="submit" name="mysubmit" value="Selected" onClick="validateRadios()" />
+        </form>
+        <br />
+        <br />
+        <button class="button">
+            <a href="toss.html">Toss</a>
+        </button>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

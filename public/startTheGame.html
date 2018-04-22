@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Start The Cricket Game</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body background="images/87.jpg">
+
+    <h1>The Cricket Match</h1>
+
+    <h1 id="runs">00</h1>
+    <table cellpadding='20' cellspacing="5" class="table">
+        <tr>
+            <th class="hadding">Score Team 1st</th>
+            <th class="ball_hadding">Balls</th>
+            <th class="hadding">Score Team 2nd</th>
+            <th class="tar_hadding">Target</th>
+        </tr>
+        <tr>
+            <th class="score_css">
+                <span id="teamAScore">0</span> /
+                <span id="outOf1stInning">0</span>
+            </th>
+            <th id="overBalls">
+                <span id="over">0</span>.
+                <span id="balls">0</span>
+            </th>
+            <th class="score_css">
+                <span id="teamBScore">0</span> /
+                <span id="outOf2ndInning">0</span>
+            </th>
+            <th id="target">00</th>
+        </tr>
+    </table>
+
+    <div class="wrapper">
+
+        <img src="images/balls.png" alt="ball" width="100px" height="100px" onClick="bowling()" class="button">
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

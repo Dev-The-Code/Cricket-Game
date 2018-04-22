@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Toss</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body background="images/toss.jpg">
+
+    <div id="coin" class="wrapper button">
+        <button onClick="toss(this)" id="head">
+            <img src="images/Head (2).jpg" alt="Head" width="60px" height="80px">
+        </button>
+        <button onClick="toss(this)" id="tail">
+            <img src="images/Tail (2).jpg" alt="Tail" width="60px" height="80px">
+        </button>
+    </div>
+
+    <div class="wrapper button">
+        <div id="chose"></div>
+        <div id="heading1"></div>
+
+        <div id="fieldEl"></div>
+        <div id="seletField"></div>
+        <br />
+        <div id="startTheGame">
+            <a href="startTheGame.html" id="link">Start The Game</a>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

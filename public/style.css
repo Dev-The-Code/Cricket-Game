@@ -1,0 +1,113 @@
+body, html {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'unique',Georgia, 'Times New Roman', Times, serif;
+}
+@font-face{
+    font-family: 'unique';
+    src: url('font/unique.ttf');
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+     position: relative;
+    
+    top: 25%; 
+    margin:0px auto;
+                    
+            
+}
+.teams{
+    color: #0a51e9;
+    text-shadow: 3px 3px 6px #fbff01;
+
+}
+
+.images{
+    height: 250px;
+    width: 240px;
+}
+
+#chose{
+    color: #d40000;
+    text-shadow: 3px 3px 6px #0e0e0d;
+    font-size: 2em;
+}
+#heading1{
+    color: #f502e9;
+    text-shadow: 3px 3px 6px #0e0e0d;
+    font-size: 2em;
+
+}
+#seletField{
+    color: #02f57c;
+    text-shadow: 3px 3px 6px #0e0e0d;
+    font-size: 1.8em;
+}
+
+#link{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f00000;
+    text-shadow: 3px 3px 6px #0e0e0d;
+    font-size: 2em;
+
+}
+
+.table{
+    margin:0px auto;
+}
+.hadding{
+    color:#e0ffff;
+    background-color: #2f4f4f;
+    font-size: 2em;
+    font-family: 'unique',georgia,serif;
+    text-decoration: bold;
+}
+h1{
+    text-align: center;
+    color: #191970;
+    text-shadow: #4169e1; 
+    font-size: 4em;
+    font-family: 'unique', monospace;
+}
+.score_css{
+    
+    color:#e0ffff;
+    font-size: 1.5em;
+    background-color: #2b4949c9;
+}
+.ball_hadding{
+    background-color: #006627;
+    color:#e0ffff;
+    font-size: 2em;
+    
+}
+#overBalls{
+    background-color: #00a33f;
+    color:#e0ffff;
+    font-size: 1.5em;
+}
+
+.tar_hadding{
+    color:#e0ffff;
+    background-color: #6b4200;
+    font-size: 2em;
+    
+}
+#target{
+    
+    color:#e0ffff;
+    font-size: 1.5em;
+    background-color: #a86801;
+}
+#runs{
+    color: #8f0000;
+    text-shadow: 3px 3px 6px #ff0000;
+    font-size: 5em;
+}

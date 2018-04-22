@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cricket Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="images/MCG.jpg">
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCxDRZjg3-lLH8Yqt5RguIxuI6mvj5ROPg",
+            authDomain: "cricket-game-9da70.firebaseapp.com",
+            databaseURL: "https://cricket-game-9da70.firebaseio.com",
+            projectId: "cricket-game-9da70",
+            storageBucket: "",
+            messagingSenderId: "1042743828009"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+
+
+    <div class="wrapper">
+        <button class="button">
+            <a href="startGame.html">
+                <img src="images/psl.jpg" alt="psl" class="psl" width="300px" height="200px">
+            </a>
+        </button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
